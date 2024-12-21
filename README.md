@@ -76,7 +76,7 @@ The library uses [Highlight.js](https://highlightjs.org/) for syntax highlightin
 Include the import in your project using a `<script>` tag.
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/DoctorDemon/Terminal-Elements/terminal-elements.js defer"></script>
+<script src="https://cdn.jsdelivr.net/gh/DoctorDemon/Terminal-Elements/terminal-elements.js" defer></script>
 ```
 
 *Note:* You still need to include highlight.js:
