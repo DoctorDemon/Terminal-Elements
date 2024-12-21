@@ -42,7 +42,7 @@ Feel free to edit the color palette to your needs, all colors are in the HEX for
 
 ## Example Image
 <p align="center">
-  <img src="https://i.postimg.cc/y6bLrHk3/exampleimage.png" alt="Terminal-Elements Logo" width="">
+  <img src="https://i.postimg.cc/y6bLrHk3/exampleimage.png" alt="Terminal-Elements Logo" width="1200">
 </p>
 
 
