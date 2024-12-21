@@ -15,7 +15,6 @@ Terminal-Elements is a modern JavaScript library that introduces custom web comp
 - **`<styled-alert>`**: Alerts for critical, warning, or informational messages with three customizable types.
 
 
-
 ## Installation
 Download the `terminal-elements.js` and add it to your project directory. Wherever you want to use the custom tags, the script must be included. You can import it using the `<script>` tag in the `<head>` of your HTML file.
 
@@ -27,20 +26,23 @@ Include the JavaScript file in your HTML:
 <script src="path/to/terminal-elements.js"></script>
 ```
 
-
-
 ## To-Do List
 
 ### Features to Implement
 - [ ] Rename the tags to cleaner versions (eg. \<terminal-output\> to \<terminal\>.
 - [ ] Add support for customizable themes for all components.
 - [ ] Implement additional terminal styles for `<terminal-output>`.
-- [ ] Provide more alert types with custom icons (e.g., success, info).
+- [ ] Add support for prism.js to handle better colorization.
 
 ### Documentation Improvements
 - [ ] Create a demo page to showcase all features.
 - [ ] Add detailed examples for each component.
 - [ ] Include step-by-step guides for integrating the library with popular frameworks (e.g., React, Angular, Vue).
+
+## Example Image
+<p align="center">
+  <img src="https://i.postimg.cc/y6bLrHk3/exampleimage.png" alt="Terminal-Elements Logo" width="">
+</p>
 
 
 
