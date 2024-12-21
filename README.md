@@ -54,7 +54,7 @@ Each theme applies distinct background colors and text styles. Custom themes can
 
 # Installation
 
-### 1. Using `<script>` Tag
+## 1. Using a local copy
 Download the `terminal-elements.js` file and include it in your project using a `<script>` tag.
 
 ```html
@@ -64,6 +64,20 @@ Download the `terminal-elements.js` file and include it in your project using a 
 ### 2. Including Highlight.js
 The library uses [Highlight.js](https://highlightjs.org/) for syntax highlighting. Include the Highlight.js library and styles in your project:
 
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+```
+<br/>
+
+## 1. Using `jsdelivr`
+Include the import in your project using a `<script>` tag.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/DoctorDemon/Terminal-Elements/terminal-elements.js defer"></script>
+```
+
+*Note:* You still need to include highlight.js:
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
