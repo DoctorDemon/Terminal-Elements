@@ -25,6 +25,7 @@ Include the JavaScript file in your HTML:
 ```html
 <script src="path/to/terminal-elements.js"></script>
 ```
+Feel free to edit the color palette to your needs, all colors are in the HEX format. (eg. `#2d2d2d`)
 
 ## To-Do List
 
