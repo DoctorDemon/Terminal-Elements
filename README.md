@@ -48,7 +48,8 @@ Here is a preview of the supported themes:
   </tr>
 </table>
 
-Each theme applies distinct background colors and text styles. Custom themes can also be added by linking appropriate CSS files and overriding the background color.
+Each theme applies distinct background colors and text styles. Custom themes can also be added by linking appropriate CSS files and overriding the background color.<br/><br/>
+*Note: the white corners are not part of the element.*
 
 
 
