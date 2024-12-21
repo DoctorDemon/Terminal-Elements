@@ -2,48 +2,101 @@
   <img src="https://i.postimg.cc/rFgwLf24/Screenshot-229.png" alt="Terminal-Elements Logo" width="">
 </p>
 
-Terminal-Elements is a modern JavaScript library that introduces custom web components for creating styled terminal-like UI elements, headings, paragraphs, tables, and alerts. Designed with encapsulated styling via Shadow DOM, this library helps developers build polished and responsive web components with ease.
+**Terminal-Elements** is a cutting-edge JavaScript library that allows developers to build styled terminal-like UI components using modern web technologies. It offers custom web components for creating terminal outputs with encapsulated styling using the Shadow DOM.
 
 
 
-## Features
+# Features
 
-- **`<terminal-output>`**: Displays styled terminal-like content with syntax highlighting for the standard Unix `user@hostname` in green.
-- **`<heading-text>`**: Customizable heading elements (`<h1>`, `<h2>`, etc.) with a clean and modern design.
-- **`<paragraph-text>`**: Elegant paragraph elements for displaying text with a professional look.
-- **`<styled-table>`**: Tables with modern styling, responsive behavior, and clean borders.
-- **`<styled-alert>`**: Alerts for critical, warning, or informational messages with three customizable types.
+### Components
+- **`<terminal-element>`**: A customizable terminal-like display component supporting multiple themes and syntax highlighting.
+
+### Themes
+Terminal-Elements supports the following pre-defined themes for `<terminal-element>`:
+- **Atom One Dark** (Default)
+- **Agate**
+- **An Old Hope**
+- **Monokai Sublime**
+
+Here is a preview of the supported themes:
 
 
-## Installation
-Download the `terminal-elements.js` and add it to your project directory. Wherever you want to use the custom tags, the script must be included. You can import it using the `<script>` tag in the `<head>` of your HTML file.
+<table align="center" >
+  <tr>
+    <td align="center">
+      <img src="https://i.postimg.cc/TYXBcb1H/Screenshot-232-Kopie.png" alt="Atom One Dark Theme" width="">
+      <p>Atom One Dark</p>
+    </td>
+    <tr>
+    <td align="center">
+      <img src="https://i.postimg.cc/SK5vY2Hd/Screenshot-232.png" alt="Agate Theme" width="">
+      <p>Agate</p>
+    </td>
+      </tr>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://i.postimg.cc/Y9Wy62HH/Screenshot-233-Kopie.png" alt="An Old Hope Theme" width="">
+      <p>An Old Hope</p>
+    </td>
+    <tr>
+    <td align="center">
+      <img src="https://i.postimg.cc/44pSn3Pv/Screenshot-234-Kopie.png" alt="Monokai Sublime Theme" width="">
+      <p>Monokai Sublime</p>
+    </td>
+      </tr>
+  </tr>
+</table>
 
-### Using `<script>` tag:
+Each theme applies distinct background colors and text styles. Custom themes can also be added by linking appropriate CSS files and overriding the background color.
 
-Include the JavaScript file in your HTML:
+
+
+# Installation
+
+### 1. Using `<script>` Tag
+Download the `terminal-elements.js` file and include it in your project using a `<script>` tag.
 
 ```html
 <script src="path/to/terminal-elements.js"></script>
 ```
-Feel free to edit the color palette to your needs, all colors are in the HEX format. (eg. `#2d2d2d`)
 
-## To-Do List
+### 2. Including Highlight.js
+The library uses [Highlight.js](https://highlightjs.org/) for syntax highlighting. Include the Highlight.js library and styles in your project:
 
-### Features to Implement
-- [ ] Rename the tags to cleaner versions (eg. \<terminal-output\> to \<terminal\>.
-- [ ] Add support for customizable themes for all components.
-- [ ] Implement additional terminal styles for `<terminal-output>`.
-- [ ] Add support for prism.js to handle better colorization.
-
-### Documentation Improvements
-- [ ] Create a demo page to showcase all features.
-- [ ] Add detailed examples for each component.
-- [ ] Include step-by-step guides for integrating the library with popular frameworks (e.g., React, Angular, Vue).
-
-## Example Image
-<p align="center">
-  <img src="https://i.postimg.cc/y6bLrHk3/exampleimage.png" alt="Terminal-Elements Logo" width="1200">
-</p>
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+```
 
 
 
+# Usage
+
+### Example: `<terminal-element>`
+
+```html
+<terminal-element theme="monokai-sublime">
+  <span class="user">user@hostname:</span> echo "Hello, Terminal!"
+</terminal-element>
+```
+
+
+
+## Contribution
+Contributions are welcome! Please submit issues or pull requests on the GitHub repository to propose changes or report bugs.
+
+
+
+## License
+This project is licensed under the MIT License.<br/>
+Terminal-Elements colors the content in the terminals via highlight.js.<br/>
+Licence and copyright for **highlight.js** apply:<br/>
+Copyright (c) 2006, Ivan Sagalaev.<br/>
+All rights reserved.<br/>
+**We do NOT claim ownership of highlight.js!**
+
+
+### Credits
+Built with ❤️ by developers for developers. Designed for simplicity, elegance, and flexibility.<br/>
+Big thank you to highlight.js for their awesome library.
