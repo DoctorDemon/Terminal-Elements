@@ -9,8 +9,8 @@
 # Features
 
 ### Components
-- **`<terminal-element>`**: A customizable terminal-like display component supporting multiple themes and syntax highlighting.
-each terminal element scales dynamically, allowing for use with tailwind and other libraries.
+- **`<terminal-element>`**: A customizable terminal-like display component supporting multiple themes and syntax highlighting.<br/>
+Each terminal element scales dynamically in the width.
 
 ### Themes
 Terminal-Elements supports the following pre-defined themes for `<terminal-element>`:
