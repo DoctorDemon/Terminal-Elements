@@ -77,13 +77,11 @@ Include the import in your project using a `<script>` tag.
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/DoctorDemon/Terminal-Elements/terminal-elements.js" defer></script>
-```
 
-*Note:* You still need to include highlight.js:
-```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
 ```
+*This imports highlight.js. and terminal-elements.js*
 
 
 
@@ -92,6 +90,10 @@ Include the import in your project using a `<script>` tag.
 ### Example: `<terminal-element>`
 
 ```html
+<script src="https://cdn.jsdelivr.net/gh/DoctorDemon/Terminal-Elements/terminal-elements.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
 <terminal-element theme="monokai-sublime">
   <span class="user">user@hostname:</span> echo "Hello, Terminal!"
 </terminal-element>
@@ -110,7 +112,6 @@ Terminal-Elements colors the content in the terminals via highlight.js.<br/>
 Licence and copyright for **highlight.js** apply:<br/>
 Copyright (c) 2006, Ivan Sagalaev.<br/>
 All rights reserved.<br/>
-**We do NOT claim ownership of highlight.js!**
 
 
 ### Credits
